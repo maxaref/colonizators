@@ -15,6 +15,8 @@ export class PlanetShips extends PixiItem {
     this.oneShipAngle = 2 * Math.PI / this.orbitShipsCount;
     this.spaceBetweenPlayers = 2;
 
+    this.animateQueue = [];
+
     this.createContainer();
     this.addShips();
   }
@@ -117,15 +119,26 @@ export class PlanetShips extends PixiItem {
   }
 
   update(state) {
-    if (state !== this.state) {
+    if (state && state !== this.state) {
       this.state = state;
-      this.pixiItem.removeChildren();
-      this.addShips();
+
+      this.animateQueue.push(() => {
+        this.pixiItem.removeChildren();
+        this.addShips();
+      });
     }
 
     // state.forEach(({ count }, i) => {
     //   if (count < prevState[i].count) this.hideDefeatedShips(i, prevState[i].count - count);
     // });
+
+  }
+
+  animate() {
+    if (this.animateQueue.length) {
+      const animation = this.animateQueue.shift();
+      animation();
+    }
 
     this.pixiItem.rotation += this.frameRotation;
   }

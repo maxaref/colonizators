@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "test": "",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server --mode development"
   },
   "author": "Roman Bannikov",
   "license": "ISC",

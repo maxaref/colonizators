@@ -1,4 +1,5 @@
 import { game} from 'Js/configs/game';
+import * as actions from 'Js/services/actions';
 
 const { screenWidth, screenHeight, worldHeight, worldWidth } = game;
 
@@ -6,6 +7,7 @@ export class Scene {
 
   constructor() {
     this.scene = new PIXI.Container();
+    this.planets = [];
 
     this.setBackground();
     this.setSceneDragHandlers();
@@ -26,7 +28,7 @@ export class Scene {
     this.rightBoundary = -this.scene.width + screenWidth;
     this.bottomBoundary = -this.scene.height + screenHeight;
     this.previousMousePosition = null;
-    
+
     this.scene.interactive = true;
     this.scene.buttonMode = true;
     this.scene
@@ -40,6 +42,12 @@ export class Scene {
       // events for drag move
       .on('mousemove', (e) => this.onDragMove(e))
       .on('touchmove', (e) => this.onDragMove(e));
+
+    this.scene.on('click', (e) => this.deselect(e));
+  }
+
+  deselect(e) {
+    if (e.target === this.scene) actions.deselect();
   }
 
   onDragStart(event) {
@@ -78,4 +86,5 @@ export class Scene {
     if (this.scene.position.x < this.rightBoundary) this.scene.position.x = this.rightBoundary;
     if (this.scene.position.y < this.bottomBoundary) this.scene.position.y = this.bottomBoundary;
   }
+
 }

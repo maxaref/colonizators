@@ -1,0 +1,68 @@
+<svg fill="#38053b" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     preserveAspectRatio="xMidYMid meet" viewBox="0 0 600 530" width="110" height="95">
+  <defs>
+    <path
+      transform="translate(-10, 0)"
+      d="M2.52 0L640 0L640 640L2.52 640L2.52 0Z" id="aTkGffsPy"></path>
+    <path
+      d="M98.94 97.21L104.67 98.04L100.52 102.08L101.5 107.78L96.37 105.09L91.25 107.78L92.23 102.08L88.08 98.04L93.81 97.21L96.37 92.02L98.94 97.21Z"
+      id="c58ZnSci95"></path>
+    <path
+      d="M496.71 154.74L500.99 155.46L497.9 158.92L498.63 163.81L494.8 161.5L490.97 163.81L491.71 158.92L488.61 155.46L492.89 154.74L494.8 150.3L496.71 154.74Z"
+      id="d8AklIpv5"></path>
+    <path
+      d="M124.15 424.29L129.21 425.13L125.55 429.16L126.41 434.87L121.89 432.17L117.36 434.87L118.23 429.16L114.57 425.13L119.63 424.29L121.89 419.11L124.15 424.29Z"
+      id="d46i4GsZON"></path>
+    <path
+      d="M237.24 215.01L241.52 215.72L238.43 219.18L239.16 224.07L235.33 221.76L231.5 224.07L232.24 219.18L229.14 215.72L233.42 215.01L235.33 210.56L237.24 215.01Z"
+      id="i3P38K5Y9"></path>
+    <path
+      d="M525.21 439.44L530.26 440.18L526.61 443.74L527.47 448.77L522.95 446.4L518.42 448.77L519.29 443.74L515.63 440.18L520.69 439.44L522.95 434.87L525.21 439.44Z"
+      id="boQDOvC2D"></path>
+    <path
+      d="M405.24 279.83L408.74 280.55L406.21 284.01L406.81 288.9L403.68 286.59L400.54 288.9L401.14 284.01L398.61 280.55L402.11 279.83L403.68 275.39L405.24 279.83Z"
+      id="a3JpwwyqeP"></path>
+    <path
+      d="M302.86 73.8L306.36 74.31L303.82 76.77L304.42 80.25L301.29 78.61L298.16 80.25L298.76 76.77L296.23 74.31L299.73 73.8L301.29 70.63L302.86 73.8Z"
+      id="c9CDLrtZv"></path>
+    <path
+      d="M280.34 403.8L283.84 404.31L281.31 406.77L281.91 410.25L278.77 408.61L275.64 410.25L276.24 406.77L273.71 404.31L277.21 403.8L278.77 400.63L280.34 403.8Z"
+      id="i2xAAnnent"></path>
+    <path
+      d="M333.25 557.77L336.75 558.28L334.22 560.75L334.82 564.23L331.69 562.58L328.56 564.23L329.16 560.75L326.62 558.28L330.12 557.77L331.69 554.6L333.25 557.77Z"
+      id="h1MnzcijnE"></path>
+    <path
+      d="M72.19 268.93L75.7 269.44L73.16 271.9L73.76 275.39L70.63 273.74L67.5 275.39L68.1 271.9L65.56 269.44L69.06 268.93L70.63 265.76L72.19 268.93Z"
+      id="gE6636BGW"></path>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <use xlink:href="#aTkGffsPy" opacity="1" fill="#38053b" fill-opacity="1"></use>
+      </g>
+      <g>
+        <use xlink:href="#c58ZnSci95" opacity="1" fill="#f3e71e" fill-opacity="1"></use>
+      </g>
+      <g>
+        <use xlink:href="#d8AklIpv5" opacity="1" fill="#f3e71e" fill-opacity="1"></use>
+      </g>
+      <g>
+        <use xlink:href="#d46i4GsZON" opacity="1" fill="#f3e71e" fill-opacity="1"></use>
+      </g>
+      <g>
+        <use xlink:href="#i3P38K5Y9" opacity="1" fill="#fcf244" fill-opacity="1"></use>
+      </g>
+      <g>
+        <use xlink:href="#boQDOvC2D" opacity="1" fill="#f3e71e" fill-opacity="1"></use>
+      </g>
+      <g>
+        <use xlink:href="#a3JpwwyqeP" opacity="1" fill="#ff4327" fill-opacity="1"></use>
+      </g>
+      <g>
+        <use xlink:href="#c9CDLrtZv" opacity="1" fill="#58a7fc" fill-opacity="1"></use>
+      </g>
+
+
+    </g>
+  </g>
+</svg>

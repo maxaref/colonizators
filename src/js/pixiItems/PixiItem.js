@@ -27,16 +27,27 @@ export class PixiItem {
     const image = this.pixiItem;
 
     this.pixiItem = new PIXI.Container();
-    this.pixiItem.x = image.x - space;
-    this.pixiItem.y = image.y - space;
-
-    image.x = space;
-    image.y = space;
-
-    this.pixiItem.addChild(image);
+    this.pixiItem.x = image.x;
+    this.pixiItem.y = image.y;
 
     this.width += space * 2;
     this.height += space * 2;
+
+    this.setBackground(image);
+  }
+
+  setBackground(image) {
+    let item = image;
+    if (typeof image === 'string') item = PIXI.Sprite.fromImage(image);
+
+    if (this.pixiItem.children.length) this.pixiItem.removeChildAt(0);
+
+    item.x = this.space;
+    item.y = this.space;
+    item.width = this.width - this.space * 2;
+    item.height =  this.height - this.space * 2;
+
+    this.pixiItem.addChildAt(item, 0);
   }
 
   update() {}
