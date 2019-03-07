@@ -1,0 +1,4 @@
+# colonizators
+
+```
+npm run dev
